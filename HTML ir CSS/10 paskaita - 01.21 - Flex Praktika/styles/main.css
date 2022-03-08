@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+}
+
+nav{
+  height: 60px;
+  background-color: grey;
+}
+
+footer{
+  height: 60px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+  display: flex;
+  height: calc(100vh - 60px - 60px);
+  background-color: honeydew;
+  align-content: flex-start;
+  width: 500px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+img{
+  width: 200px;
+}
